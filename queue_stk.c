@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define N 5
+#define N 50
 int top1=-1, top2=-1;
 int stack1[N], stack2[N];
 int count=0;
@@ -95,13 +95,15 @@ int main()
     enqueue(10);
     enqueue(20);
     enqueue(30);
+    enqueue(40);
+    enqueue(50);
     printf("\nThe Created Queue is:\n");
     display();
     printf("\nThe Removed Element is:\n");
     dequeue();
     printf("\nAfter Deletion the Created Queue is:\n");
     display();
-    enqueue(40);
+    enqueue(60);
     printf("\nThe Created Queue is:\n");
     display();
     return  0;
