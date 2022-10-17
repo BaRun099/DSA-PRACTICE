@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="BARUN KARMAKAR">
+    <meta name="description" content="This page contains all the things I'm learning how to create web page structure as I learn HTML.">
+    <title>My First Web Page</title>
+    <link rel="icon" href="html_log.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+    <h1>Towards my Destination of achiving goals</h1>
+
+    <nav aria-labelledby="primary-navigation">
+        <h2 id="primary-navigation">Primary-Navigation</h2>
+        <ul>
+            <li>
+                <a href="#goal">About my goal</a>
+            </li>
+            <li>
+                <a href="#elements">Study material</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <article id="goal">
+        <hr>
+    
+        <h2>I'm exploring HTML in joy!</h2>
+        <p>This is my first project in HTML:)</p>
+        <section>
+        <h3>HTML5</h3>
+        <img src="img/HTML-5-Logo.jpg" alt="HTML5 logo" title="I'm Learning HTML5" width="150" height="150">
+        <figure>
+            <figcaption>
+                An Example of HTML5 code
+            </figcaption>
+            <p>
+                <code>&lt;h1&gt;Hey! There I'm Learning HTML5.&lt;h1&gt;</code>
+            </p>
+        </figure>
+        </section>
+        <section>
+        <h3>Don't Forget that consistancy is key to success.</h3>
+        <p>You notice your growth when u feel knowledgeable:</p>
+        <!--ordered list implement-->
+        <ol>
+            <li>.....Start the Day with the strong motivation.</li>
+            <li>.....Set everydays goal.</li>
+            <li>.....Recall when u take rest. <abbr title="Sleep well">Its reduce Stress</abbr></li>
+            <li>.....Track your goal and analize your work-in-progress.</li>
+        </ol>
+        <aside>
+            <details>
+                <summary>
+                    Have you the same interest in Coding?
+                </summary>
+                    <p>
+                        if yes, then start practice at <time datetime="08:00">08 am</time> and practice about <time datetime="PT3H">3 hours</time> every day morning.
+                    </p>
+            </details>
+        </aside>
+        <br>
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+            <tr>
+                <th>Day-Time</th>
+                <th id="Time" scope="col">
+                    Time
+                </th>
+                <th scope="col">Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="morning" scope="row">Morning</th>
+                <td headers="morning">
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write Code</td>
+            </tr>
+            <tr>
+                <th>Break</th>
+                <td>
+                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="17:00">17pm</time>
+                </td>
+                <td>Study for other courses</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All other Times</td>
+                <td >Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td> 
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code....and recharge!</td>
+            </tr>
+        </tfoot>
+        </table>
+    </section>
+    </article>
+    <hr>
+    
+    <article id="elements">
+        <h2>Beside that I also learning DSA concept</h2>
+        <p>Try to <em>wrap up DSA in C language!</em><abbr title="Thanks to Youtube"> JL and CWH</abbr></p>
+        <section>
+        <h3>I'm focusing more in concept than to write code.</h3>
+        <figure>
+        <img src="img/dsa.png" alt="DSA Image" title="Practice DSA makes Coding Easy" width="350" height="150" loading="lazy">
+        <figcaption>Fig: Data Structure and Algorithm</figcaption>
+        </figure>
+        <!--Implementation of Unordered List-->
+    <ul>
+        <li><p>This is the major study elements thats help the most:</p>
+            <address>
+                <!--anchor tag-->
+                <a href="//www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU" target="_blank">Visit Jenny's Lecture Chanel for DSA in C:)</a><br>
+        
+                <a href="//www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR" target="_blank">Visit Code with Harry's Chanel for learning C language.</a>
+            </address>
+        </li>
+    </ul>
+    </section>
+        <!--For Commenting out line in HTML5!-->
+        <section>
+        <p>But it's also have an equal important to  <strong>practice coding!</strong></p>
+        <h4>The Detailed about my Learning materials:</h4>
+        <figure>
+        <img src="img/coding-classes.jpg" alt="Study Material" title="Practice for well fluency!" width="350" height="250" loading="lazy">
+        <figcaption>Fig: Learn Coding for Earn </figcaption>
+        </figure>
+        <dl>
+            <dt>Jenny's Lecture:</dt>
+            <dd>The pedagogy of learning is outstanding.</dd>
+            <dt>Code with Harry:</dt>
+            <dd>The lectures are detailed with clean and conceptual.</dd>
+            <dt>E. Balaguruswami:</dt>
+            <dd>I'm also reference this Book</dd>
+        </dl>
+    </section>
+    </article>
+
+    <hr>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you!</p>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Persoanl Info:</legend>
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="first name" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="last name" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="password">password:</label>
+                <input type="password" name="password" id="password" placeholder="your secret" required>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+91 xxxxxxxxxx" pattern="+91 [0-9]{10}" required>
+                    </p>
+                    <p>
+                        <label for="decade">Birth Year:</label>
+                        <input type="number" name="decade" id="decade" min="1905" max="2022" step="1" value="1990">
+                        </p>
+                        <p>
+                            <label for="food">Favourite Food Culture:</label>
+                            <select name="food" id="food" multiple size="3">
+                                <optgroup label="foods">
+                                <option value="bengali food">Bengali Food</option>
+                                <option value="south indian">South Indian</option>
+                                <option value="chines food">Chines Food</option>
+                                <option value="thai's food">Thai Food</option>
+                                <option value="continental">Continental</option>
+                                <option value="italian">Italian</option>
+                                </optgroup>
+                                <optgroup label="Drinks">
+                                    <option value="drinks">Soft Drinks(Coke)</option>
+                                    <option value="drinks">Hard Drinks(Coke)</option>
+                                </optgroup>
+                                <option value="others">Others</option>
+                            </select>
+                        </p> 
+                        <!-- <p>
+                            <label for="food">Favourite Food Culture:</label>
+                            <input type="text" name="food" id="food" list="food-list">
+                            <datalist id="food-list">
+                            <option value="bengali food">
+                            <option value="south indian">
+                            <option value="chines food">
+                            <option value="itlian food">
+                            <option value="thai food">
+                            <option value="continental food">
+                        </datalist>
+                        </p> -->
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>What is your favourite place u want to visit?</legend>
+                        <p>
+                            <input type="radio" name="place" id="darjelling" value="darjelling">
+                            <label for="darjelling">Darjelling</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="ladakh" id="ladakh" value="ladakh">
+                            <label for="ladakh">Ladakh</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="himachal" id="himachal" value="himachal">
+                            <label for="himachal">Himachal</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="shimla" id="shimla" value="shimla">
+                            <label for="shimla">Shimla</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="seaorocean" id="seaorocean" value="seaorocean">
+                            <label for="seaorocean">Other sea or ocean</label>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Do you have pets?</legend>
+                        <p>
+                            <input type="checkbox" name="pets" id="dog" value="dog">
+                            <label for="dog">Dog</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="cat" value="cat">
+                            <label for="cat">Cat</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="fish" value="fish">
+                            <label for="fish">Fish</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="otherpets" value="otherpets">
+                            <label for="otherpets">Otherpets</label>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Send me your Recomendation!</legend>
+                        <label for="message">Your Message</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+        </form>
+    </article>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html" target="_blank">BARUN KARMAKAR</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+</body>
+</html>
